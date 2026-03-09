@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="shortcut icon" href="logo.png">
+    <head>
+        <title>Mon Parcours</title>
+    </head>
+    <body style="background: radial-gradient(#a893a7,#927e91,#523e5c)">
+        <div class="top">
+            <h1><input type="checkbox" id="checkbox"><label for="checkbox" class="naisho">MON PARCOURS</label></h1>
+        </div>
+        <div class="table">
+            <div class="left">
+                <span style="font-weight:bold; font-size:200%; text-align:right;">VURLOD--HARDY</span>
+                <br><span style="font-weight:none; font-size:150%; text-align:right">Isaack</span>
+            </div>
+            <div class="right">
+                <img src="face.jpg" width="40%" style="border-radius: 25px;" >
+            </div>
+        </div>
+        <h1 class="subtitle">
+            <img src="formations.png" width=5%>Formations
+        </h1>
+        <div class="table">
+            <div class="left">
+            <div class="broad">
+                <span onmouseleave="school.src=''" onmouseenter="school.src='ensibs_lorient.jpg'" style="font-weight:bold;">2025-2027: Ecole d'ingénieur, CPI SNIO</span>
+                <br><span class="details">ENSIBS, direction spécialité mécatronique </span>
+            </div>
+            <div class="broad">
+                <span onmouseleave="school.src=''" onmouseenter="school.src='callo.jpeg'" style="font-weight:bold;">2022-2025: <a href="https://lyceemarcelcallo.org" class="link">Lycée Marcel Callo</a>, Bac général</span>
+                <p></p><span class="details">Spécialitées maths, sciences de l'ingénieur. Options Maths expertes et maths européennes </span>
+            </div>
+            </div>
+            <div class="right">
+            <div class="broad">
+                <img id="school" src="" width="70%" style="border-radius:30px">
+            </div>
+            </div>
+        </div>
+        <h1 class="subtitle">
+            <img src="experiences.png" width=5%>Expériences
+        </h1>
+        <div class="table">
+            <div class="left">
+                <div class="broad">
+                    <img src="ARM2.jpeg" width="40%" style="border-radius:30px">
+                    <p></p><span class="details"><a href="https://fr.linkedin.com/company/arm-2" class="link">ARM2</a>, usinage de précision 24/01/2022 - 08/07/2021</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="broad">
+                    <img src="tygwen.jpeg" width="60%" style="border-radius:30px">
+                    <p></p><span class="details"><a href="https://www.grand-fougeray.fr/contacts/boulangerie-ty-gwen/" class="link">Boulangerie Ty Gwen</a>, 05/07/2021 - 08/07/2021</span>
+                </div>
+            </div>
+        </div>
+        <h1 class="subtitle">
+            <img src="abilities.png" width=6%>Compétences
+        </h1>
+        <div class="table">
+            <div class="left">
+                <div class="broad">
+                    <p style="font-size:140%; text-align:center; color:#b40d3f">
+                        Sciences
+                        <hr>
+                    </p>
+                    <span class="details">
+                    <span class="details" style="font-style:none; font-size:100%;">- WORKS</span>
+                    <hr>
+                    <span class="details" style="font-style:none; font-size:100%;">- Conception Assistée par Ordinateur (DAO)</span>
+                    <hr>
+                    <span class="details" style="font-style:none; font-size:100%;">- Python, C, SQL. +connaissances UNIX</span>
+                    <hr>
+                    <span class="details" style="font-style:none; font-size:100%;">- Je conçois des robots dans mon temps libre</span>
+                    </span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="broad">
+                    <span style="font-size:140%; text-align:center; color:#b40d3f">
+                        Divers
+                        <hr>
+                    </span>
+                    <span class="details">
+                    <span class="details" style="font-style:none; font-size:100%;">- Bilingue en Anglais (Certifié C1)</span>
+                    <hr>
+                    <span class="details" style="font-style:none; font-size:100%;">- Certifié niveau B1 en espagnol</span>
+                    <hr>
+                    <span class="details" style="font-style:none; font-size:100%;">- J'apprend également le Japonais, le Russe et l'Allemand</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <footer class="footer">
+            <p></p>
+            <a href="https://www.linkedin.com/in/isaack-vurlod%E2%80%94hardy-31674a3b1/" class="link" style="color:black">LinkedIn</a>
+            <p class="footer"></p>
+            <a href="mailto:isaack.vurlod@gmail.com" class="link" style="color:black">isaack.vurlod@gmail.com</a>
+            <p></p>
+            <a href="tel:07833665793" class="link" style="color:black">07833665793</a>
+            <p>47 Rue de Kerguestenen 56100 Lorient</p>
+        </footer>
+    </body>
+</html>
